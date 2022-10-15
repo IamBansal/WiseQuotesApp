@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wise Quotes App</string>
+    <string name="splash_text">\" QUOTES WILL\nCOME HERE \"</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="your_name">YOUR NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="or_signup_with">Or Signup with</string>
+    <string name="i_have_an_account">I have an account</string>
+    <string name="register">Register</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="keep_me_signed_in">Keep me signed in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_login_with">Or Login with</string>
+    <string name="i_don_t_have_an_account">I don\'t have an account</string>
+    <string name="login">Login</string>
+</resources>
