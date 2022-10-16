@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.wisequotesapp.R
+import com.example.wisequotesapp.ui.activity.MainActivity
 
 class ProfileFragment : Fragment() {
 
@@ -15,4 +16,18 @@ class ProfileFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_profile, container, false)
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        setupToolbar()
+
+    }
+
+    private fun setupToolbar() {
+        (activity as MainActivity?)!!.supportActionBar!!.title = "Your Profile"
+        (activity as MainActivity?)!!.supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+
+    }
+
 }

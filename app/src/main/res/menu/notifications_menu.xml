@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title=""
+        android:id="@+id/fav"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title=""
+        android:orderInCategory="101"
+        android:id="@+id/check"
+        android:icon="@drawable/ic_baseline_check_circle_24"
+        app:showAsAction="always" />
+</menu>

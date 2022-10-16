@@ -3,13 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1735" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/drawable/ic_baseline_notification_add_24.xml" value="0.1735" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1735" />
         <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/drawable/strike_through.xml" value="0.183" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/activity_auth.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/activity_splash_act.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/content_splash.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/fragment_favorites.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/fragment_first.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/fragment_home.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/fragment_login.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/fragment_notification.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/fragment_profile.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/layout/fragment_signup.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/menu/main_menu.xml" value="0.23125" />
+        <entry key="..\:/Users/abans/AndroidStudioProjects/WiseQuotesApp/app/src/main/res/menu/notifications_menu.xml" value="0.1905982905982906" />
       </map>
     </option>
   </component>

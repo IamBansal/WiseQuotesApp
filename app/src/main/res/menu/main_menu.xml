@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title=""
+        android:id="@+id/notification"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_baseline_notification_add_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title=""
+        android:orderInCategory="101"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:showAsAction="always" />
+
+    <item
+        android:title=""
+        android:orderInCategory="102"
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        app:showAsAction="always" />
+</menu>

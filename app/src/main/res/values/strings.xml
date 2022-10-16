@@ -15,4 +15,5 @@
     <string name="or_login_with">Or Login with</string>
     <string name="i_don_t_have_an_account">I don\'t have an account</string>
     <string name="login">Login</string>
+    <string name="favorites">Favorites</string>
 </resources>

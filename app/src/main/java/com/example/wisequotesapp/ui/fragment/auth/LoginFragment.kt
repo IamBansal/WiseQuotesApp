@@ -1,5 +1,6 @@
 package com.example.wisequotesapp.ui.fragment.auth
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.navOptions
 import com.example.wisequotesapp.R
 import com.example.wisequotesapp.databinding.FragmentLoginBinding
+import com.example.wisequotesapp.ui.activity.MainActivity
 
 class LoginFragment : Fragment() {
 
@@ -34,6 +36,10 @@ class LoginFragment : Fragment() {
                         exit = android.R.animator.fade_out
                     }
                 })
+        }
+
+        binding.loginButton.setOnClickListener {
+            startActivity(Intent(requireActivity(), MainActivity::class.java))
         }
 
     }

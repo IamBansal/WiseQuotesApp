@@ -22,7 +22,7 @@ class Splash : AppCompatActivity() {
             startActivity(
                 Intent(
                     this,
-                    MainActivity::class.java
+                    AuthActivity::class.java
                 )
             )
         }, 2000)
