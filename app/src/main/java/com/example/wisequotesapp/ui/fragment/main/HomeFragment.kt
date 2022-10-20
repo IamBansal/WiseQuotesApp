@@ -9,7 +9,6 @@ import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import com.example.wisequotesapp.R
 import com.example.wisequotesapp.databinding.FragmentHomeBinding
-import com.example.wisequotesapp.ui.activity.MainActivity
 
 class HomeFragment : Fragment() {
 
@@ -20,7 +19,6 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
-
         return binding.root
     }
 

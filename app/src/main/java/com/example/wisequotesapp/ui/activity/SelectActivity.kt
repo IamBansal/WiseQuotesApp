@@ -1,16 +1,18 @@
 package com.example.wisequotesapp.ui.activity
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.example.wisequotesapp.R
 import com.example.wisequotesapp.databinding.ActivityMainBinding
+import com.example.wisequotesapp.databinding.ActivitySelectBinding
 
-class MainActivity : AppCompatActivity() {
+class SelectActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivitySelectBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySelectBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)

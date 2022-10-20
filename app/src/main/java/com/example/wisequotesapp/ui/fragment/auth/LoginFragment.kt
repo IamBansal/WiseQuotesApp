@@ -10,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.navOptions
 import com.example.wisequotesapp.R
 import com.example.wisequotesapp.databinding.FragmentLoginBinding
-import com.example.wisequotesapp.ui.activity.MainActivity
+import com.example.wisequotesapp.ui.activity.SelectActivity
 
 class LoginFragment : Fragment() {
 
@@ -39,7 +39,7 @@ class LoginFragment : Fragment() {
         }
 
         binding.loginButton.setOnClickListener {
-            startActivity(Intent(requireActivity(), MainActivity::class.java))
+            startActivity(Intent(requireActivity(), SelectActivity::class.java))
         }
 
     }

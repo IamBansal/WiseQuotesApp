@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_navigation"
+    app:startDestination="@+id/navigation_category">
+
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.example.wisequotesapp.ui.fragment.select.CategoriesFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_categories" >
+        <action
+            android:id="@+id/action_navigation_category_to_navigation_author"
+            app:destination="@id/navigation_author" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_author"
+        android:name="com.example.wisequotesapp.ui.fragment.select.AuthorsFragment"
+        android:label="Authors"
+        tools:layout="@layout/fragment_authors" >
+        <action
+            android:id="@+id/action_navigation_author_to_navigation_theme"
+            app:destination="@id/navigation_theme" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_theme"
+        android:name="com.example.wisequotesapp.ui.fragment.select.ThemesFragment"
+        android:label="Themes"
+        tools:layout="@layout/fragment_themes" />
+
+</navigation>
