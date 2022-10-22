@@ -7,6 +7,7 @@ import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wisequotesapp.R
 import com.example.wisequotesapp.databinding.FragmentNotificationBinding
@@ -44,7 +45,8 @@ class NotificationFragment : Fragment() {
                         true
                     }
                     R.id.check -> {
-                        Toast.makeText(requireActivity(), "Check CLicked.", Toast.LENGTH_SHORT).show()
+                        findNavController().navigate(
+                            R.id.action_navigation_notifications_to_navigation_recent)
                         true
                     }
                     else -> false

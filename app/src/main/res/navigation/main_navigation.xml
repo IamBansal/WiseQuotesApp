@@ -31,12 +31,22 @@
         android:id="@+id/navigation_notifications"
         android:name="com.example.wisequotesapp.ui.fragment.main.NotificationFragment"
         android:label="Notifications"
-        tools:layout="@layout/fragment_notification" />
+        tools:layout="@layout/fragment_notification" >
+        <action
+            android:id="@+id/action_navigation_notifications_to_navigation_recent"
+            app:destination="@id/navigation_recent" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.example.wisequotesapp.ui.fragment.main.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_recent"
+        android:name="com.example.wisequotesapp.ui.fragment.main.RecentFragment"
+        android:label="Recent"
+        tools:layout="@layout/fragment_recent" />
 
 </navigation>
