@@ -1,0 +1,2 @@
+# WiseQuotesApp
+# Quotes delivering application.
