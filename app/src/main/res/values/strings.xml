@@ -17,4 +17,6 @@
     <string name="login">Login</string>
     <string name="favorites">Favorites</string>
     <string name="select">Select</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
 </resources>

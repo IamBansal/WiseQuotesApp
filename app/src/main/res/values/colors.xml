@@ -11,4 +11,8 @@
     <color name="buttonColor">#790252</color>
     <color name="text">#AF0171</color>
     <color name="light_pink">#DE9EF4</color>
+    <color name="light_blue_background">#D6EBFF</color>
+    <color name="blue_green_app">#008080</color>
+    <color name="bright_green">#4CD964</color>
+    <color name="blue_grey">#3D5A80</color>
 </resources>
