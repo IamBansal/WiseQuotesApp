@@ -9,7 +9,9 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
+        app:titleTextColor="@color/blue_green_app"
         android:layout_height="wrap_content"
+        android:background="@color/light_blue_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

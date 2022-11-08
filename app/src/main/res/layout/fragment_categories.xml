@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_blue_background"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.fragment.select.CategoriesFragment">
 
@@ -31,6 +32,7 @@
             android:id="@+id/etSearch"
             android:layout_width="match_parent"
             android:hint="Search"
+            android:background="@color/white"
             android:layout_height="wrap_content"
             android:inputType="text"
             tools:ignore="HardcodedText" />
@@ -57,7 +59,7 @@
         android:insetBottom="0dp"
         android:insetLeft="0dp"
         android:insetRight="0dp"
-        android:backgroundTint="@color/buttonColor"
+        android:backgroundTint="@color/blue_green_app"
         android:text="@string/select"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"

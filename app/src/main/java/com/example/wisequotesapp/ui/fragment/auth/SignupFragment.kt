@@ -52,7 +52,7 @@ class SignupFragment : Fragment() {
             dialog.dismiss()
         }
 
-        object : CountDownTimer(30000, 1000) {
+        object : CountDownTimer(31000, 1000) {
             @SuppressLint("SetTextI18n")
             override fun onTick(millisUntilFinished: Long) {
                 view.timer.text = "00:${millisUntilFinished / 1000}"

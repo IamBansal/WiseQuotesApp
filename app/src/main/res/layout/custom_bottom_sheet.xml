@@ -51,6 +51,7 @@
             app:itemCount="4"
             app:itemRadius="10dp"
             app:itemSpacing="15dp"
+            app:lineColor="@color/bright_green"
             style="@style/PinWidget.PinView"
             android:inputType="number"
             android:itemBackground="@color/bright_green"
