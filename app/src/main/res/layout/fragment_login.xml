@@ -169,9 +169,7 @@
             android:layout_width="30dp"
             android:layout_height="70dp"
             app:strokeWidth="1dp"
-            android:backgroundTint="@color/light_blue_background"
             app:strokeColor="@color/black"
-            app:iconGravity="start"
             app:cornerRadius="7dp"
             app:icon="@drawable/facebook"
             android:layout_marginHorizontal="40dp"
@@ -186,6 +184,7 @@
             android:backgroundTint="@color/light_blue_background"
             app:strokeColor="@color/black"
             app:iconGravity="start"
+            app:icon="@drawable/whatsapp_icon"
             android:layout_marginHorizontal="40dp"
             android:layout_weight="1" />
 

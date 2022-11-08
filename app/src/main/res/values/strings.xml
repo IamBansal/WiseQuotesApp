@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Wise Quotes App</string>
-    <string name="splash_text">\" QUOTES WILL\nCOME HERE \"</string>
+    <string name="splash_text">\“QUOTES WILL\n COME HERE\”</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="create_an_account">Create an account</string>
     <string name="your_name">YOUR NAME</string>
@@ -19,4 +19,7 @@
     <string name="select">Select</string>
     <string name="username">Username</string>
     <string name="phone_number">Phone Number</string>
+    <string name="submit">Submit</string>
+    <string name="otp">We have sent you a 4 digit One Time Password on this number</string>
+    <string name="otp_verification">OTP Verification</string>
 </resources>
