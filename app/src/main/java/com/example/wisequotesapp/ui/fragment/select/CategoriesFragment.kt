@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.wisequotesapp.R
 import com.example.wisequotesapp.databinding.FragmentCategoriesBinding
+import com.example.wisequotesapp.ui.activity.SelectActivity
 import com.example.wisequotesapp.ui.adapter.AuthorsAdapter
 import com.example.wisequotesapp.ui.model.Author
 
@@ -23,6 +24,8 @@ class CategoriesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentCategoriesBinding.inflate(inflater, container, false)
+
+        (activity as SelectActivity).supportActionBar?.title = "Categories"
 
         return binding.root
     }
@@ -49,7 +52,6 @@ class CategoriesFragment : Fragment() {
             findNavController().navigate(
                 R.id.action_navigation_category_to_navigation_author)
         }
-
     }
 
 }

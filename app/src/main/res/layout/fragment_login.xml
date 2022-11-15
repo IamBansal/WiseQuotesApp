@@ -196,6 +196,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/blue_green_app"
         android:textStyle="bold"
+        android:padding="10dp"
         android:layout_gravity="center"
         android:layout_margin="10sp"
         android:text="@string/i_don_t_have_an_account" />
