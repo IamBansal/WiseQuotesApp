@@ -9,6 +9,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
+        app:title="Wise Quotes"
         app:titleTextColor="@color/blue_green_app"
         android:layout_height="wrap_content"
         android:background="@color/light_blue_background"

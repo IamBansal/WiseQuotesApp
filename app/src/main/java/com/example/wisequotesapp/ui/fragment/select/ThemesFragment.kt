@@ -42,6 +42,7 @@ class ThemesFragment : Fragment() {
 
         binding.select.setOnClickListener {
             startActivity(Intent(requireActivity(), MainActivity::class.java))
+            (activity as SelectActivity).finishAffinity()
         }
 
         setupToolbar()
