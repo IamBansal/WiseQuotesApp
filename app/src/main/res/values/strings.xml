@@ -27,4 +27,5 @@
     <string name="choose_font">Choose Font</string>
     <string name="choose_background">Choose Background</string>
     <string name="apply">Apply</string>
+    <string name="change_password">Change Password?</string>
 </resources>

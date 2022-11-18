@@ -1,12 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:background="@color/light_blue_background"
     tools:context=".ui.fragment.main.ProfileFragment">
 
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="@color/blue_green_app_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:layout_margin="10dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="xyz@gmail.com"
+                    tools:ignore="HardcodedText"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9871877325"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Indian"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:text="Female"
+                    tools:ignore="HardcodedText"
+                    android:textColor="@color/black" />
+                
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/model"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/changePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageProfile"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:text="@string/change_password"
+                android:textColor="@color/buttonColor" />
+
+        </RelativeLayout>
+        
+    </androidx.cardview.widget.CardView>
 
 
-
-</FrameLayout>
+</LinearLayout>
