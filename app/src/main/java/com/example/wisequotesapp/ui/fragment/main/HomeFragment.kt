@@ -7,13 +7,17 @@ import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wisequotesapp.R
 import com.example.wisequotesapp.databinding.FragmentHomeBinding
 import com.example.wisequotesapp.ui.activity.MainActivity
+import com.example.wisequotesapp.ui.adapter.FavoritesAdapter
+import com.example.wisequotesapp.ui.model.Author
 
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
+    private lateinit var list: List<Author>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -55,6 +59,20 @@ class HomeFragment : Fragment() {
             }
         }, viewLifecycleOwner, Lifecycle.State.RESUMED)
 
+        list = listOf(
+            Author("Notification 1"),
+            Author("Notification 2"),
+            Author("Notification 3"),
+            Author("Notification 4"),
+            Author("Notification 5"),
+            Author("Notification 5"),
+            Author("Notification 5"),
+            Author("Notification 5"),
+            Author("Notification 5"),
+            Author("Notification 10"),
+        )
+        binding.rvHome.layoutManager = LinearLayoutManager(requireActivity())
+        binding.rvHome.adapter = FavoritesAdapter(this@HomeFragment, list)
     }
 
 }

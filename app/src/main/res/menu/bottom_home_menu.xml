@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Profile"
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile__1_"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:title="Search"
+        android:id="@+id/navigation_recent"
+        android:icon="@drawable/search"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:title="For you"
+        android:id="@+id/navigation_fav"
+        android:icon="@drawable/baseline_download_for_offline"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:title="Alert"
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_baseline_notification_add_24"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:title="Theme"
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/themes"
+        tools:ignore="HardcodedText" />
+</menu>
