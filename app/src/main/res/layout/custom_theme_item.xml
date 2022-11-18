@@ -12,6 +12,8 @@
     <TextView
         android:id="@+id/text"
         tools:text="Theme 1"
+        android:gravity="center"
+        android:background="@drawable/flower"
         android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
