@@ -42,14 +42,6 @@ class HomeFragment : Fragment() {
 
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
                 return when (menuItem.itemId) {
-                    R.id.notification -> {
-                        findNavController().navigate(R.id.action_navigation_home_to_navigation_notifications)
-                        true
-                    }
-                    R.id.profile -> {
-                        findNavController().navigate(R.id.action_navigation_home_to_navigation_profile)
-                        true
-                    }
                     R.id.favorites -> {
                         findNavController().navigate(R.id.action_navigation_home_to_navigation_fav)
                         true

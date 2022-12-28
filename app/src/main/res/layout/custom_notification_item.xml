@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="12dp"
     app:cardCornerRadius="12dp"
-    android:backgroundTint="@color/blue_grey"
+    android:backgroundTint="@color/blue_grey_light"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools">
 

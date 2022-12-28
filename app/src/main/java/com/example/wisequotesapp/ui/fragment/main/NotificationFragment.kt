@@ -40,13 +40,10 @@ class NotificationFragment : Fragment() {
 
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
                 return when (menuItem.itemId) {
-                    R.id.fav -> {
-                        Toast.makeText(requireActivity(), "Fav CLicked.", Toast.LENGTH_SHORT).show()
-                        true
-                    }
                     R.id.check -> {
                         findNavController().navigate(
-                            R.id.action_navigation_notifications_to_navigation_recent)
+                            R.id.action_navigation_notifications_to_navigation_quote_theme)
+                        Toast.makeText(requireActivity(), "Mark all as read function.\nShowing quote theme fragment here.", Toast.LENGTH_SHORT).show()
                         true
                     }
                     else -> false

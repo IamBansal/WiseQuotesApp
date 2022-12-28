@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val navView: BottomNavigationView = binding.navView
+        navView.itemIconTintList = null
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
 
@@ -33,9 +34,9 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.navigation_home,
                 R.id.navigation_fav,
+                R.id.navigation_recent,
                 R.id.navigation_notifications,
                 R.id.navigation_profile,
-                R.id.navigation_recent
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
