@@ -5,30 +5,30 @@
     <item
         android:title="Theme"
         android:id="@+id/navigation_home"
-        android:icon="@drawable/home_filled"
+        android:icon="@drawable/browsers"
         tools:ignore="HardcodedText" />
 
     <item
         android:title="Search"
         android:id="@+id/navigation_recent"
-        android:icon="@drawable/search"
+        android:icon="@drawable/search_12_filled__1__1"
         tools:ignore="HardcodedText" />
 
     <item
         android:title="For you"
         android:id="@+id/navigation_fav"
-        android:icon="@drawable/ic_baseline_unfold_more_24"
+        android:icon="@drawable/vector"
         tools:ignore="HardcodedText" />
 
     <item
         android:title="Alert"
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_baseline_notification_add_24"
+        android:icon="@drawable/bell"
         tools:ignore="HardcodedText" />
 
     <item
         android:title="Profile"
         android:id="@+id/navigation_profile"
-        android:icon="@drawable/profile__1_"
+        android:icon="@drawable/group"
         tools:ignore="HardcodedText" />
 </menu>
