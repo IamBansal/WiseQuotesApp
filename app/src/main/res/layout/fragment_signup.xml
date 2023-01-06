@@ -216,9 +216,10 @@
                 android:layout_marginHorizontal="40dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/light_blue_background"
-                app:cornerRadius="7dp"
+                app:cornerRadius="7dp" app:iconSize="33dp"
+                app:iconGravity="textStart"
+                app:iconTintMode="multiply"
                 app:icon="@drawable/facebook"
-                app:iconGravity="start"
                 app:strokeColor="@color/black"
                 app:strokeWidth="1dp" />
 
@@ -228,10 +229,12 @@
                 android:layout_height="70dp"
                 android:layout_marginHorizontal="40dp"
                 android:layout_weight="1"
-                app:icon="@drawable/whatsapp_icon"
                 android:backgroundTint="@color/light_blue_background"
                 app:cornerRadius="7dp"
-                app:iconGravity="start"
+                app:iconSize="33dp"
+                app:iconGravity="textStart"
+                app:iconTintMode="multiply"
+                app:icon="@drawable/twitter"
                 app:strokeColor="@color/black"
                 app:strokeWidth="1dp" />
 
